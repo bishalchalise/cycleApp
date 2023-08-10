@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "628638937481",
+    "project_id": "cycle-app-5bca7",
+    "storage_bucket": "cycle-app-5bca7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628638937481:android:3ae5eb7437ea04378d3158",
+        "android_client_info": {
+          "package_name": "com.example.cyclego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628638937481-mmbhnnf54p4jp3k400sckju9fjej64ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2QdaKKeunMKFptQFj1f3JsE8ZNjGpbWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628638937481-mmbhnnf54p4jp3k400sckju9fjej64ra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
