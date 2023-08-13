@@ -3,17 +3,17 @@ import 'package:fluttertoast/fluttertoast.dart';
 
 class FirebaseConsts {
   static const String users = 'users';
-
-
+  static const String cycles = 'all_cycles';
 }
-  void toast(String message) {
-    Fluttertoast.showToast(
-      msg: message, 
-      toastLength: Toast.LENGTH_LONG, 
-      gravity: ToastGravity.BOTTOM,
-      timeInSecForIosWeb: 1,
-      textColor: Colors.white, 
-      backgroundColor: Colors.blue, 
-      fontSize: 16.0,
-      );
-  }
+
+void toast(String message) {
+  Fluttertoast.showToast(
+    msg: message,
+    toastLength: Toast.LENGTH_LONG,
+    gravity: ToastGravity.BOTTOM,
+    timeInSecForIosWeb: 1,
+    textColor: Colors.white,
+    backgroundColor: Colors.blue,
+    fontSize: 16.0,
+  );
+}

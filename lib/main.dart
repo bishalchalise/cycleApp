@@ -4,10 +4,12 @@ import 'package:cyclego/features/auth/presentation/cubit/credentials/cubit/crede
 import 'package:cyclego/features/auth/presentation/cubit/user/cubit/user_cubit.dart';
 import 'package:cyclego/features/auth/presentation/cubit/user/get_single_user/cubit/single_user_cubit.dart';
 import 'package:cyclego/features/auth/presentation/pages/auth/login_page.dart';
-import 'package:cyclego/features/auth/presentation/pages/home/home_page.dart';
+import 'package:cyclego/features/cycle/presentation/bloc/all_cycles/cycle_cubit.dart';
+import 'package:cyclego/features/cycle/presentation/bloc/cycle_details/cycle_details_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'features/cycle/presentation/pages/home/home_page.dart';
 import 'injection_container.dart' as di;
 
 void main() async {
@@ -37,6 +39,13 @@ class MyApp extends StatelessWidget {
         BlocProvider(
           create: (_) => di.sl<SingleUserCubit>(),
         ),
+         BlocProvider(
+          create: (_) => di.sl<CycleCubit>(),
+        ),
+          BlocProvider(
+          create: (_) => di.sl<CycleDetailsCubit>(),
+        ),
+
       ],
       child: MaterialApp(
         title: 'CycleRent',

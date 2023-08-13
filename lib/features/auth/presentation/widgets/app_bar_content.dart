@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AppBarContent extends StatelessWidget {
-  final String title;
-  const AppBarContent({super.key, required this.title});
+  final String? title;
+  const AppBarContent({super.key,  this.title});
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +37,7 @@ class AppBarContent extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 30.0, vertical: 20),
           child: Text(
-            title,
+            title ?? "",
             style: const TextStyle(
               color: Colors.white,
               fontSize: 40,

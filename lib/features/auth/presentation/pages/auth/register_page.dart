@@ -2,7 +2,7 @@ import 'package:cyclego/core/constants/constatns.dart';
 import 'package:cyclego/features/auth/domain/entities/auth_user_entity.dart';
 import 'package:cyclego/features/auth/presentation/cubit/auth/cubit/auth_cubit.dart';
 import 'package:cyclego/features/auth/presentation/cubit/credentials/cubit/credentials_cubit.dart';
-import 'package:cyclego/features/auth/presentation/pages/home/home_page.dart';
+import 'package:cyclego/features/cycle/presentation/pages/home/home_page.dart';
 import 'package:cyclego/features/auth/presentation/widgets/common_button.dart';
 import 'package:cyclego/features/auth/presentation/widgets/common_text_field.dart';
 import 'package:flutter/gestures.dart';
